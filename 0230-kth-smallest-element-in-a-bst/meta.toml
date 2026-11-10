@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 230
+frontend_id = 230
+directory = "0230-kth-smallest-element-in-a-bst"
+slug = "kth-smallest-element-in-a-bst"
+title = "Kth Smallest Element In a Bst"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Trees"]
+patterns = ["trees"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

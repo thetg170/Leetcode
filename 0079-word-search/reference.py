@@ -1,0 +1,38 @@
+# Adapted from neetcode-gh/leetcode (MIT). See practice/neetcode-reference-LICENSE.txt.
+
+from __future__ import annotations
+
+from collections import Counter
+
+
+class Solution:
+    def exist(self, board: list[list[str]], word: str) -> bool:
+        ROWS, COLS = len(board), len(board[0])
+        path = set()
+
+        def dfs(r, c, i):
+            if i == len(word):
+                return True
+            if min(r, c) < 0 or r >= ROWS or c >= COLS or word[i] != board[r][c] or (r, c) in path:
+                return False
+            path.add((r, c))
+            res = (
+                dfs(r + 1, c, i + 1)
+                or dfs(r - 1, c, i + 1)
+                or dfs(r, c + 1, i + 1)
+                or dfs(r, c - 1, i + 1)
+            )
+            path.remove((r, c))
+            return res
+
+        # Start with the rarer end of the word to reduce the number of search branches.
+
+        count = sum(map(Counter, board), Counter())
+        if count[word[0]] > count[word[-1]]:
+            word = word[::-1]
+
+        for r in range(ROWS):
+            for c in range(COLS):
+                if dfs(r, c, 0):
+                    return True
+        return False

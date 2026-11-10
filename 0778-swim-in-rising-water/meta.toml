@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 778
+frontend_id = 778
+directory = "0778-swim-in-rising-water"
+slug = "swim-in-rising-water"
+title = "Swim In Rising Water"
+language = "python"
+difficulty = "hard"
+source_url = "https://leetcode.com/problems/swim-in-rising-water/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Advanced Graphs"]
+patterns = ["advanced-graphs"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

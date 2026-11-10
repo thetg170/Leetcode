@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 3309
+frontend_id = 3309
+directory = "3309-count-prefix-and-suffix-pairs-i"
+slug = "count-prefix-and-suffix-pairs-i"
+title = "Count Prefix and Suffix Pairs I"
+language = "python"
+difficulty = "unknown"
+source_url = "https://leetcode.com/problems/count-prefix-and-suffix-pairs-i"
+active = true
+
+[files]
+statement = "README.md"
+reference = "3309-count-prefix-and-suffix-pairs-i.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = []
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

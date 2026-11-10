@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 76
+frontend_id = 76
+directory = "0076-minimum-window-substring"
+slug = "minimum-window-substring"
+title = "Minimum Window Substring"
+language = "python"
+difficulty = "hard"
+source_url = "https://leetcode.com/problems/minimum-window-substring/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Sliding Window"]
+patterns = ["sliding-window"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

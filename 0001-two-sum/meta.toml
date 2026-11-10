@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1
+frontend_id = 1
+directory = "0001-two-sum"
+slug = "two-sum"
+title = "Two Sum"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/two-sum"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0001-two-sum.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Hash Table"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 1
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 19
+frontend_id = 19
+directory = "0019-remove-nth-node-from-end-of-list"
+slug = "remove-nth-node-from-end-of-list"
+title = "Remove Nth Node From End of List"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Linked List"]
+patterns = ["linked-list"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2
+frontend_id = 2
+directory = "0002-add-two-numbers"
+slug = "add-two-numbers"
+title = "Add Two Numbers"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/add-two-numbers"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0002-add-two-numbers.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Linked List", "Math", "Recursion"]
+patterns = ["linked-list"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

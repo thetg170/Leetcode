@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1477
+frontend_id = 1477
+directory = "1477-product-of-the-last-k-numbers"
+slug = "product-of-the-last-k-numbers"
+title = "Product of the Last K Numbers"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/product-of-the-last-k-numbers/description/?envType=daily-question&envId=2025-02-14"
+active = true
+
+[files]
+statement = "README.md"
+reference = "1477-product-of-the-last-k-numbers.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Data Stream", "Design", "Math", "Prefix Sum"]
+patterns = ["prefix-sum"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

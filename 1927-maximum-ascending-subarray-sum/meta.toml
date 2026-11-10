@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1927
+frontend_id = 1927
+directory = "1927-maximum-ascending-subarray-sum"
+slug = "maximum-ascending-subarray-sum"
+title = "Maximum Ascending Subarray Sum"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/maximum-ascending-subarray-sum"
+active = true
+
+[files]
+statement = "README.md"
+reference = "1927-maximum-ascending-subarray-sum.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

@@ -1,0 +1,8 @@
+"""Python starter for local practice."""
+
+from __future__ import annotations
+
+
+class Solution:
+    def minDistance(self, word1: str, word2: str) -> int:
+        raise NotImplementedError

@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 9
+frontend_id = 9
+directory = "0009-palindrome-number"
+slug = "palindrome-number"
+title = "Palindrome Number"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/palindrome-number"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0009-palindrome-number.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Math"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

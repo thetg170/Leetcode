@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 155
+frontend_id = 155
+directory = "0155-min-stack"
+slug = "min-stack"
+title = "Min Stack"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/min-stack"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0155-min-stack.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Design", "Stack"]
+patterns = ["stack"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 23
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1297
+frontend_id = 1297
+directory = "1297-maximum-number-of-balloons"
+slug = "maximum-number-of-balloons"
+title = "Maximum Number of Balloons"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/maximum-number-of-balloons"
+active = true
+
+[files]
+statement = "README.md"
+reference = "1297-maximum-number-of-balloons.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Counting", "Hash Table", "String"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

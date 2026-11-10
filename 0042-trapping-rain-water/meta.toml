@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 42
+frontend_id = 42
+directory = "0042-trapping-rain-water"
+slug = "trapping-rain-water"
+title = "Trapping Rain Water"
+language = "python"
+difficulty = "hard"
+source_url = "https://leetcode.com/problems/trapping-rain-water"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0042-trapping-rain-water.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Dynamic Programming", "Monotonic Stack", "Stack", "Two Pointers"]
+patterns = ["dynamic-programming", "monotonic-stack", "stack", "two-pointers"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2137
+frontend_id = 2137
+directory = "2137-final-value-of-variable-after-performing-operations"
+slug = "final-value-of-variable-after-performing-operations"
+title = "Final Value of Variable After Performing Operations"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/final-value-of-variable-after-performing-operations"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2137-final-value-of-variable-after-performing-operations.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Simulation", "String"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

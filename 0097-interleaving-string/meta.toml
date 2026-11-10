@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 97
+frontend_id = 97
+directory = "0097-interleaving-string"
+slug = "interleaving-string"
+title = "Interleaving String"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/interleaving-string/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["2-D Dynamic Programming"]
+patterns = ["2-d-dynamic-programming"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

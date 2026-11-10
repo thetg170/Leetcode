@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 297
+frontend_id = 297
+directory = "0297-serialize-and-deserialize-binary-tree"
+slug = "serialize-and-deserialize-binary-tree"
+title = "Serialize And Deserialize Binary Tree"
+language = "python"
+difficulty = "hard"
+source_url = "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Trees"]
+patterns = ["trees"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

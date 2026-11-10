@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 792
+frontend_id = 792
+directory = "0792-binary-search"
+slug = "binary-search"
+title = "Binary Search"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/binary-search"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0792-binary-search.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Binary Search"]
+patterns = ["binary-search"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 22
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 215
+frontend_id = 215
+directory = "0215-kth-largest-element-in-an-array"
+slug = "kth-largest-element-in-an-array"
+title = "Kth Largest Element In An Array"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Heap / Priority Queue"]
+patterns = ["heap-priority-queue"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

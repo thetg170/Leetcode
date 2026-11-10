@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 3430
+frontend_id = 3430
+directory = "3430-count-days-without-meetings"
+slug = "count-days-without-meetings"
+title = "Count Days Without Meetings"
+language = "python"
+difficulty = "unknown"
+source_url = "https://leetcode.com/problems/count-days-without-meetings"
+active = true
+
+[files]
+statement = "README.md"
+reference = "3430-count-days-without-meetings.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = []
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

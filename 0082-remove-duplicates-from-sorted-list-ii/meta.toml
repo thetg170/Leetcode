@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 82
+frontend_id = 82
+directory = "0082-remove-duplicates-from-sorted-list-ii"
+slug = "remove-duplicates-from-sorted-list-ii"
+title = "Remove Duplicates from Sorted List II"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0082-remove-duplicates-from-sorted-list-ii.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Linked List", "Two Pointers"]
+patterns = ["linked-list", "two-pointers"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

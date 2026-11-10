@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 987
+frontend_id = 987
+directory = "0987-reveal-cards-in-increasing-order"
+slug = "reveal-cards-in-increasing-order"
+title = "Reveal Cards In Increasing Order"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/reveal-cards-in-increasing-order"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0987-reveal-cards-in-increasing-order.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Queue", "Simulation", "Sorting"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 739
+frontend_id = 739
+directory = "0739-daily-temperatures"
+slug = "daily-temperatures"
+title = "Daily Temperatures"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/daily-temperatures/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Stack"]
+patterns = ["stack"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

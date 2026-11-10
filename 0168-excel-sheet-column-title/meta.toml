@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 168
+frontend_id = 168
+directory = "0168-excel-sheet-column-title"
+slug = "excel-sheet-column-title"
+title = "Excel Sheet Column Title"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/excel-sheet-column-title"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0168-excel-sheet-column-title.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Math", "String"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

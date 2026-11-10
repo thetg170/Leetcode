@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2634
+frontend_id = 2634
+directory = "2634-minimum-common-value"
+slug = "minimum-common-value"
+title = "Minimum Common Value"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/minimum-common-value"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2634-minimum-common-value.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Binary Search", "Hash Table", "Two Pointers"]
+patterns = ["binary-search", "hash-map", "two-pointers"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

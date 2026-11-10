@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1089
+frontend_id = 1089
+directory = "1089-remove-vowels-from-a-string"
+slug = "remove-vowels-from-a-string"
+title = "Remove Vowels from a String"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/remove-vowels-from-a-string"
+active = true
+
+[files]
+statement = "README.md"
+reference = "1089-remove-vowels-from-a-string.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["String"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

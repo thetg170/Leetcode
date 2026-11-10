@@ -1,0 +1,31 @@
+[project]
+name = "leetcode-kata"
+version = "0.1.0"
+description = "Local deliberate-practice workflow for the LeetCode solution archive"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+  "basedpyright>=1.31.0",
+  "pytest>=8.3.0",
+  "ruff>=0.12.0",
+  "tomli-w>=1.2.0",
+]
+
+[tool.pytest.ini_options]
+addopts = "-q --import-mode=importlib"
+pythonpath = ["."]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+extend-exclude = ["*/kata.py", "*/buggy.py"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.basedpyright]
+pythonVersion = "3.12"
+typeCheckingMode = "basic"
+exclude = ["**/kata.py", "**/buggy.py"]

@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 13
+frontend_id = 13
+directory = "0013-roman-to-integer"
+slug = "roman-to-integer"
+title = "Roman to Integer"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/roman-to-integer"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0013-roman-to-integer.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Hash Table", "Math", "String"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

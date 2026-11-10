@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1066
+frontend_id = 1066
+directory = "1066-fixed-point"
+slug = "fixed-point"
+title = "Fixed Point"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/fixed-point"
+active = true
+
+[files]
+statement = "README.md"
+reference = "1066-fixed-point.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Binary Search"]
+patterns = ["binary-search"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 11
+frontend_id = 11
+directory = "0011-container-with-most-water"
+slug = "container-with-most-water"
+title = "Container With Most Water"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/container-with-most-water"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0011-container-with-most-water.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Greedy", "Two Pointers"]
+patterns = ["greedy", "two-pointers"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 20
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

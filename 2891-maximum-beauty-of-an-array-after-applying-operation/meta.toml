@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2891
+frontend_id = 2891
+directory = "2891-maximum-beauty-of-an-array-after-applying-operation"
+slug = "maximum-beauty-of-an-array-after-applying-operation"
+title = "Maximum Beauty of an Array After Applying Operation"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2891-maximum-beauty-of-an-array-after-applying-operation.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Binary Search", "Sliding Window", "Sorting"]
+patterns = ["binary-search", "sliding-window"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

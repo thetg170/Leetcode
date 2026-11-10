@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2195
+frontend_id = 2195
+directory = "2195-time-needed-to-buy-tickets"
+slug = "time-needed-to-buy-tickets"
+title = "Time Needed to Buy Tickets"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/time-needed-to-buy-tickets"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2195-time-needed-to-buy-tickets.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Queue", "Simulation"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

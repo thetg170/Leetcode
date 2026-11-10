@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2243
+frontend_id = 2243
+directory = "2243-check-if-all-as-appears-before-all-bs"
+slug = "check-if-all-as-appears-before-all-bs"
+title = "Check if All A's Appears Before All B's"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/check-if-all-as-appears-before-all-bs"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2243-check-if-all-as-appears-before-all-bs.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["String"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 141
+frontend_id = 141
+directory = "0141-linked-list-cycle"
+slug = "linked-list-cycle"
+title = "Linked List Cycle"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/linked-list-cycle"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0141-linked-list-cycle.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Hash Table", "Linked List", "Two Pointers"]
+patterns = ["hash-map", "linked-list", "two-pointers"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 16
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

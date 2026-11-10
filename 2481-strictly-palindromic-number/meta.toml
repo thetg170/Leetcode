@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2481
+frontend_id = 2481
+directory = "2481-strictly-palindromic-number"
+slug = "strictly-palindromic-number"
+title = "Strictly Palindromic Number"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/strictly-palindromic-number"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2481-strictly-palindromic-number.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Brainteaser", "Math", "Two Pointers"]
+patterns = ["two-pointers"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

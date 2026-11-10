@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 994
+frontend_id = 994
+directory = "0994-rotting-oranges"
+slug = "rotting-oranges"
+title = "Rotting Oranges"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/rotting-oranges/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Graphs"]
+patterns = ["graphs"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

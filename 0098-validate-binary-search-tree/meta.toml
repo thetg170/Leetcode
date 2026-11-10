@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 98
+frontend_id = 98
+directory = "0098-validate-binary-search-tree"
+slug = "validate-binary-search-tree"
+title = "Validate Binary Search Tree"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/validate-binary-search-tree/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Trees"]
+patterns = ["trees"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

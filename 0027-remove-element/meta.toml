@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 27
+frontend_id = 27
+directory = "0027-remove-element"
+slug = "remove-element"
+title = "Remove Element"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/remove-element"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0027-remove-element.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Two Pointers"]
+patterns = ["two-pointers"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

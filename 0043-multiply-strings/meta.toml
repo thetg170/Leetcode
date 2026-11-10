@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 43
+frontend_id = 43
+directory = "0043-multiply-strings"
+slug = "multiply-strings"
+title = "Multiply Strings"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/multiply-strings/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Math & Geometry"]
+patterns = ["math-geometry"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

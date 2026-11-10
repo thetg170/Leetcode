@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 17
+frontend_id = 17
+directory = "0017-letter-combinations-of-a-phone-number"
+slug = "letter-combinations-of-a-phone-number"
+title = "Letter Combinations of a Phone Number"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/letter-combinations-of-a-phone-number"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0017-letter-combinations-of-a-phone-number.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Backtracking", "Hash Table", "String"]
+patterns = ["backtracking", "hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

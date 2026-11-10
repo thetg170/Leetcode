@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 40
+frontend_id = 40
+directory = "0040-combination-sum-ii"
+slug = "combination-sum-ii"
+title = "Combination Sum II"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/combination-sum-ii/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Backtracking"]
+patterns = ["backtracking"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1444
+frontend_id = 1444
+directory = "1444-number-of-steps-to-reduce-a-number-to-zero"
+slug = "number-of-steps-to-reduce-a-number-to-zero"
+title = "Number of Steps to Reduce a Number to Zero"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero"
+active = true
+
+[files]
+statement = "README.md"
+reference = "1444-number-of-steps-to-reduce-a-number-to-zero.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Bit Manipulation", "Math"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

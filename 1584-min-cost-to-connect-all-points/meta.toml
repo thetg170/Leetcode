@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 1584
+frontend_id = 1584
+directory = "1584-min-cost-to-connect-all-points"
+slug = "min-cost-to-connect-all-points"
+title = "Min Cost to Connect All Points"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/min-cost-to-connect-all-points/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Advanced Graphs"]
+patterns = ["advanced-graphs"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

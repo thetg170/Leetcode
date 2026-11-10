@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 3018
+frontend_id = 3018
+directory = "3018-make-string-a-subsequence-using-cyclic-increments"
+slug = "make-string-a-subsequence-using-cyclic-increments"
+title = "Make String a Subsequence Using Cyclic Increments"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments"
+active = true
+
+[files]
+statement = "README.md"
+reference = "3018-make-string-a-subsequence-using-cyclic-increments.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["String", "Two Pointers"]
+patterns = ["two-pointers"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

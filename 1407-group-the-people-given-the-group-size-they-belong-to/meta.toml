@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1407
+frontend_id = 1407
+directory = "1407-group-the-people-given-the-group-size-they-belong-to"
+slug = "group-the-people-given-the-group-size-they-belong-to"
+title = "Group the People Given the Group Size They Belong To"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to"
+active = true
+
+[files]
+statement = "README.md"
+reference = "1407-group-the-people-given-the-group-size-they-belong-to.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Greedy", "Hash Table"]
+patterns = ["greedy", "hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

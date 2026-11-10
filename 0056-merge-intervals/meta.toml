@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 56
+frontend_id = 56
+directory = "0056-merge-intervals"
+slug = "merge-intervals"
+title = "Merge Intervals"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/merge-intervals"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0056-merge-intervals.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Sorting"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 3610
+frontend_id = 3610
+directory = "3610-find-x-sum-of-all-k-long-subarrays-i"
+slug = "find-x-sum-of-all-k-long-subarrays-i"
+title = "Find X-Sum of All K-Long Subarrays I"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i"
+active = true
+
+[files]
+statement = "README.md"
+reference = "3610-find-x-sum-of-all-k-long-subarrays-i.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Hash Table", "Heap (Priority Queue)", "Sliding Window"]
+patterns = ["hash-map", "heap", "sliding-window"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

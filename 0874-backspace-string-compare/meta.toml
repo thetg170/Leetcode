@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 874
+frontend_id = 874
+directory = "0874-backspace-string-compare"
+slug = "backspace-string-compare"
+title = "Backspace String Compare"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/backspace-string-compare"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0874-backspace-string-compare.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Simulation", "Stack", "String", "Two Pointers"]
+patterns = ["stack", "two-pointers"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

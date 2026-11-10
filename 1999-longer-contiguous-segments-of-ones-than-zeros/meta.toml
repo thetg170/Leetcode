@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1999
+frontend_id = 1999
+directory = "1999-longer-contiguous-segments-of-ones-than-zeros"
+slug = "longer-contiguous-segments-of-ones-than-zeros"
+title = "Longer Contiguous Segments of Ones than Zeros"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/longer-contiguous-segments-of-ones-than-zeros"
+active = true
+
+[files]
+statement = "README.md"
+reference = "1999-longer-contiguous-segments-of-ones-than-zeros.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["String"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

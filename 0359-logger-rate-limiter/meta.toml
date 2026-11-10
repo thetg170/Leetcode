@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 359
+frontend_id = 359
+directory = "0359-logger-rate-limiter"
+slug = "logger-rate-limiter"
+title = "Logger Rate Limiter"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/logger-rate-limiter"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0359-logger-rate-limiter.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Data Stream", "Design", "Hash Table"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

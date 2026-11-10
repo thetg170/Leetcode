@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2470
+frontend_id = 2470
+directory = "2470-removing-stars-from-a-string"
+slug = "removing-stars-from-a-string"
+title = "Removing Stars From a String"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/removing-stars-from-a-string"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2470-removing-stars-from-a-string.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Simulation", "Stack", "String"]
+patterns = ["stack"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

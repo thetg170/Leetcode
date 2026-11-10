@@ -1,4 +1,140 @@
 # Leetcode
+
+Kho lời giải LeetCode và workflow luyện thuật toán + Vim motion trong 30 phút mỗi ngày.
+Các file lời giải do LeetHub tạo vẫn được giữ nguyên; phần luyện tập chỉ bổ sung metadata,
+test và scratch file bị Git bỏ qua.
+
+## Workspace trong terminal
+
+`lc` mở trình chọn bài. tmux hiển thị đề ở bên trái và Neovim mở lời giải
+ở bên phải. Terminal hẹp có thể dùng bố cục trên/dưới. Kho lời giải LeetHub
+và workflow `kata.py` bên dưới vẫn dùng được. Workspace tạo `solution.py` hoặc
+`solution.sql` riêng khi bạn mở một bài lần đầu.
+
+### Cài đặt và mở bài
+
+Cần Git, uv, tmux và Neovim. Bootstrap chuẩn bị môi trường Python theo `uv.lock`
+và tạo liên kết `~/.local/bin/lc`. Shell trong dotfiles hiện tại đã có thư mục này
+trong PATH. Nếu có fzf, trình chọn hỗ trợ fuzzy search, nếu thiếu thì chọn bằng số.
+
+```sh
+./tools/bootstrap-lc.sh
+lc doctor
+lc                      # Tìm và chọn Two Sum
+```
+
+Bạn cũng có thể dùng `lc list`, `lc search two-sum` hoặc `lc open 1`.
+Nếu một ID trùng, truyền tên thư mục đầy đủ. Dùng `lc resume` để vào lại
+phiên đã detach. Khi bạn đổi bài, Neovim giữ các buffer chưa lưu trong phiên.
+Dùng `:wall` để ghi mọi buffer trước khi thoát hoặc chuyển máy.
+
+Trong editor bên phải, bấm `Space l h` để tra cách lưu, chạy test và thoát.
+Bấm `Space l s` để xem lời giải tham khảo local của bài đang mở. Phần xem
+mở riêng và giữ nguyên bản nháp. Dùng `q` hoặc `Esc` để quay lại.
+[Bảng phím tắt workspace](practice/workspace-shortcuts.md)
+
+Cả 150 bài trong deck NeetCode 150 có lời giải tham khảo local. Với 107 bài
+được bổ sung, `reference.py` chứa lời giải để xem, còn `starter.py` tạo bản
+nháp mới. Các lời giải mới dựa trên mã Python của NeetCode, điều chỉnh để dùng
+với workspace. [Bản nguồn đã dùng](https://github.com/neetcode-gh/leetcode/tree/8fed5f7daa6a517e375a0562d876e4a72dfdafb8/python)
+· [Giấy phép MIT](practice/neetcode-reference-LICENSE.txt)
+
+### Đề bài và kiểm thử offline
+
+`lc lang vi` và `lc lang en` đổi đề từ terminal. Two Sum có hai bản diễn giải
+tự viết. Các bài khác hiển thị đề tiếng Anh đã có và ghi rõ khi đang dùng bản
+thay thế. Thêm bản diễn giải của bạn tại `practice/statements/<tên-thư-mục>/vi.md`
+hoặc `en.md`. Chỉ chia sẻ nội dung bạn có quyền đưa lên GitHub.
+
+```sh
+lc run 1                  # Input, Expected, Actual từ ví dụ Two Sum
+lc test 1 --timeout 10    # Chạy bộ test Python hiện có cho bài 1
+lc mark solved 1
+lc note "Ôn lại cách dùng hash map" 1
+lc status
+```
+
+`run` cần một ví dụ JSON trong `practice/examples/`. Two Sum có ví dụ sẵn.
+`test` dùng pytest ở thư mục bài và báo khi thiếu test. SQL hỗ trợ đọc đề và sửa
+lời giải. Các kết quả chạy local tách biệt với trạng thái học và Accepted trên
+LeetCode. Dùng `lc mark --help` để xem bốn trạng thái học.
+
+### Ôn bài theo thẻ Anki
+
+Tạo thẻ cho bài muốn ôn. Đặt tên bài, một câu hỏi gợi nhớ và lệnh mở bài ở mặt
+trước. Đặt ý tưởng giải, lỗi dễ mắc hoặc độ phức tạp ở mặt sau. Ví dụ thẻ Two Sum
+có câu hỏi “Bạn cần lưu gì khi duyệt mảng?” và lệnh:
+
+```sh
+lc review 0001-two-sum
+```
+
+Khi thẻ đến hạn, chạy lệnh ở bất kỳ thư mục nào. Workspace mở đề và một
+`solution.py` nháp với chữ ký hàm nếu có. Viết lại lời giải, dùng
+`Space l r` để chạy ví dụ hoặc `Space l t` để chạy test, rồi quay về Anki lật thẻ
+và tự chấm. Ở terminal khác, `lc test` chạy file đang mở, còn `lc test 0001-two-sum`
+chạy lời giải chính của bài.
+
+Mỗi lần gọi `lc review` tạo một nháp Python mới. Bản nháp cũ nằm trong
+`practice/.lc/reviews/` và chỉ lưu trên máy đã làm. Dùng `lc resume` để quay
+lại workspace đang giữ bài làm dở. `lc open 0001-two-sum` mở lời giải chính.
+Trên Mac thứ hai, lệnh trong thẻ vẫn dùng được sau khi thiết lập workspace.
+Anki quản lý ngày đến hạn và điểm ôn.
+
+Deck **LeetCode** trên Anki có lệnh `lc review` cho đủ 150 bài NeetCode 150.
+107 bài bổ sung có đề tóm tắt tiếng Anh và tiếng Việt, một ví dụ và khung hàm
+Python. Hai ngôn ngữ mở được offline. Cả 150 bài có bộ test local. Trong
+Neovim, bấm `Space l t` để lưu và kiểm tra bản nháp đang mở. Kết quả dựa
+trên các ca kiểm thử trong repo. Dùng liên kết LeetCode khi muốn nộp bài
+trên hệ thống chấm trực tuyến.
+
+### Đồng bộ hai máy
+
+1. Lưu các buffer cần chia sẻ bằng `:wall`, rồi xem `git status` và `git diff`.
+   Chỉ stage các đường dẫn đã xem. Lời giải luyện nằm ở `solution.py` hoặc
+   `solution.sql`, ghi chú ở `notes.md`, tiến độ ở `practice/progress/`.
+   Lần đồng bộ đầu cần xem và đưa cả mã workspace, bộ test và metadata mong muốn
+   vào Git. Thư mục `practice/.lc/`, môi trường ảo và scratch kata là dữ liệu cục bộ.
+2. Commit các thay đổi đã chọn, rồi chạy `git push` thủ công. Nếu Git từ chối
+   do nhánh từ xa đi trước, fetch và xử lý phần chênh lệch trước khi push lại.
+3. Trên Mac thứ hai, clone repo từ remote GitHub của bạn vào đường dẫn bất kỳ,
+   vào thư mục repo rồi chạy `./tools/bootstrap-lc.sh` và `lc doctor`.
+   Nếu `lc` đã trỏ sang một checkout khác, bootstrap báo rõ và giữ liên kết đó.
+   Dùng `./bin/lc` để chạy trực tiếp từ checkout mới.
+4. Để lấy thay đổi sau này, lưu và thoát editor workspace bằng `:qa` rồi chạy
+   `lc sync` khi cây làm việc sạch. Lệnh chỉ pull fast-forward. Với conflict
+   hoặc lịch sử đã phân kỳ, xem `git status` và xử lý trong Git trước khi chạy lại.
+
+Nếu không thấy `lc`, kiểm tra `~/.local/bin` trong PATH hoặc chạy `./bin/lc`.
+Bootstrap lần đầu cần tải các gói chưa có trong cache. Nếu đã có cache, dùng
+`./tools/bootstrap-lc.sh --offline`. Các thao tác luyện bài sau bootstrap chạy local.
+
+## Bắt đầu nhanh
+
+```sh
+uv sync --dev
+uv run python tools/kata.py next
+uv run python tools/kata.py start 0001-two-sum
+uv run python tools/kata.py test --path 0001-two-sum/kata.py
+uv run python tools/kata.py finish --grade good --motion gsa --motion dap --note "ôn lại hash map"
+uv run python tools/kata.py report
+```
+
+- `next`: lấy bài core đang đến hạn theo ladder 1, 3, 7, 14, 30, 60 ngày.
+- `start`: tạo `kata.py` trống từ signature của lời giải; thêm `--mode repair` để tạo
+  `buggy.py` có một lỗi so sánh cần tìm và sửa.
+- `resume`: mở lại scratch và giữ nguyên bộ đếm của session đang làm dở.
+- `test`: chạy test của bài hiện tại và ghi số lần chạy/sai vào session.
+- `finish`: chấm `again`, `hard`, `good` hoặc `easy`, cập nhật metadata và lịch ôn.
+- `report --write`: tạo dashboard `practice/dashboard.md` từ lịch sử session.
+
+Trong Neovim, dùng nhóm `<leader>k`: `kn` bắt đầu bài kế tiếp, `kp` chọn bài,
+`kr` chạy test, `kf` kết thúc/chấm bài và `kd` xem tiến độ. Xem
+[`practice/schema.md`](practice/schema.md) để biết schema metadata và quy tắc ôn.
+
+Nếu scratch đã tồn tại, Neovim cho phép tiếp tục file cũ, ghi đè bằng một stub trống,
+hoặc hủy thao tác. Restart không lưu archive của scratch.
+
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Array

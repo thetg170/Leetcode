@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2525
+frontend_id = 2525
+directory = "2525-count-number-of-distinct-integers-after-reverse-operations"
+slug = "count-number-of-distinct-integers-after-reverse-operations"
+title = "Count Number of Distinct Integers After Reverse Operations"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2525-count-number-of-distinct-integers-after-reverse-operations.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Counting", "Hash Table", "Math"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

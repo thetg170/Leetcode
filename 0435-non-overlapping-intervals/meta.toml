@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 435
+frontend_id = 435
+directory = "0435-non-overlapping-intervals"
+slug = "non-overlapping-intervals"
+title = "Non Overlapping Intervals"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/non-overlapping-intervals/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Intervals"]
+patterns = ["intervals"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

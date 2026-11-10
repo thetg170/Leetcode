@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1894
+frontend_id = 1894
+directory = "1894-merge-strings-alternately"
+slug = "merge-strings-alternately"
+title = "Merge Strings Alternately"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/merge-strings-alternately"
+active = true
+
+[files]
+statement = "README.md"
+reference = "1894-merge-strings-alternately.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["String", "Two Pointers"]
+patterns = ["two-pointers"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

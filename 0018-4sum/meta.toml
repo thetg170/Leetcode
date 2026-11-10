@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 18
+frontend_id = 18
+directory = "0018-4sum"
+slug = "4sum"
+title = "4Sum"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/4sum/"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0018-4sum.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Sorting", "Two Pointers"]
+patterns = ["two-pointers"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

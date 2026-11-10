@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 202
+frontend_id = 202
+directory = "0202-happy-number"
+slug = "happy-number"
+title = "Happy Number"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/happy-number/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Math & Geometry"]
+patterns = ["math-geometry"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

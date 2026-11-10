@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 290
+frontend_id = 290
+directory = "0290-word-pattern"
+slug = "word-pattern"
+title = "Word Pattern"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/word-pattern"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0290-word-pattern.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Hash Table", "String"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

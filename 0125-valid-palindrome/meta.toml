@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 125
+frontend_id = 125
+directory = "0125-valid-palindrome"
+slug = "valid-palindrome"
+title = "Valid Palindrome"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/valid-palindrome"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0125-valid-palindrome.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["String", "Two Pointers"]
+patterns = ["two-pointers"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 2
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 242
+frontend_id = 242
+directory = "0242-valid-anagram"
+slug = "valid-anagram"
+title = "Valid Anagram"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/valid-anagram"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0242-valid-anagram.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Hash Table", "Sorting", "String"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 19
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

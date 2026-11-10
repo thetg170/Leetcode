@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 20
+frontend_id = 20
+directory = "0020-valid-parentheses"
+slug = "valid-parentheses"
+title = "Valid Parentheses"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/valid-parentheses"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0020-valid-parentheses.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Stack", "String"]
+patterns = ["stack"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 5
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

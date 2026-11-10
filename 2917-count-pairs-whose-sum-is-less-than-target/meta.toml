@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2917
+frontend_id = 2917
+directory = "2917-count-pairs-whose-sum-is-less-than-target"
+slug = "count-pairs-whose-sum-is-less-than-target"
+title = "Count Pairs Whose Sum is Less than Target"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2917-count-pairs-whose-sum-is-less-than-target.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Binary Search", "Sorting", "Two Pointers"]
+patterns = ["binary-search", "two-pointers"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 69
+frontend_id = 69
+directory = "0069-sqrtx"
+slug = "sqrtx"
+title = "Sqrt(x)"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/sqrtx"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0069-sqrtx.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Binary Search", "Math"]
+patterns = ["binary-search"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 13
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

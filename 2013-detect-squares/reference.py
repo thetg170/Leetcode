@@ -1,0 +1,24 @@
+# Adapted from neetcode-gh/leetcode (MIT). See practice/neetcode-reference-LICENSE.txt.
+
+from __future__ import annotations
+
+from collections import defaultdict
+
+
+class DetectSquares:
+    def __init__(self):
+        self.ptsCount = defaultdict(int)
+        self.pts = []
+
+    def add(self, point: list[int]) -> None:
+        self.ptsCount[tuple(point)] += 1
+        self.pts.append(point)
+
+    def count(self, point: list[int]) -> int:
+        res = 0
+        px, py = point
+        for x, y in self.pts:
+            if (abs(py - y) != abs(px - x)) or x == px or y == py:
+                continue
+            res += self.ptsCount[(x, py)] * self.ptsCount[(px, y)]
+        return res

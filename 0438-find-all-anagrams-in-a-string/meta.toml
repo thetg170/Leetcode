@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 438
+frontend_id = 438
+directory = "0438-find-all-anagrams-in-a-string"
+slug = "find-all-anagrams-in-a-string"
+title = "Find All Anagrams in a String"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/find-all-anagrams-in-a-string"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0438-find-all-anagrams-in-a-string.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Hash Table", "Sliding Window", "String"]
+patterns = ["hash-map", "sliding-window"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 21
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

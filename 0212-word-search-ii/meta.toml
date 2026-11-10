@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 212
+frontend_id = 212
+directory = "0212-word-search-ii"
+slug = "word-search-ii"
+title = "Word Search II"
+language = "python"
+difficulty = "hard"
+source_url = "https://leetcode.com/problems/word-search-ii/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Tries"]
+patterns = ["tries"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

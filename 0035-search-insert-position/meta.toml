@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 35
+frontend_id = 35
+directory = "0035-search-insert-position"
+slug = "search-insert-position"
+title = "Search Insert Position"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/search-insert-position"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0035-search-insert-position.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Binary Search"]
+patterns = ["binary-search"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 4
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

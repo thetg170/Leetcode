@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1537
+frontend_id = 1537
+directory = "1537-maximum-score-after-splitting-a-string"
+slug = "maximum-score-after-splitting-a-string"
+title = "Maximum Score After Splitting a String"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/maximum-score-after-splitting-a-string"
+active = true
+
+[files]
+statement = "README.md"
+reference = "1537-maximum-score-after-splitting-a-string.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Prefix Sum", "String"]
+patterns = ["prefix-sum"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

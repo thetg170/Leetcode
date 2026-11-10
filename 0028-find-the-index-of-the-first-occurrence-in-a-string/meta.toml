@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 28
+frontend_id = 28
+directory = "0028-find-the-index-of-the-first-occurrence-in-a-string"
+slug = "find-the-index-of-the-first-occurrence-in-a-string"
+title = "Find the Index of the First Occurrence in a String"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0028-find-the-index-of-the-first-occurrence-in-a-string.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["String", "String Matching", "Two Pointers"]
+patterns = ["two-pointers"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

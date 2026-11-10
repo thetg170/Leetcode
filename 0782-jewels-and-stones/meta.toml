@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 782
+frontend_id = 782
+directory = "0782-jewels-and-stones"
+slug = "jewels-and-stones"
+title = "Jewels and Stones"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/jewels-and-stones"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0782-jewels-and-stones.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Hash Table", "String"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

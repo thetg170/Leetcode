@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 367
+frontend_id = 367
+directory = "0367-valid-perfect-square"
+slug = "valid-perfect-square"
+title = "Valid Perfect Square"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/valid-perfect-square"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0367-valid-perfect-square.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Binary Search", "Math"]
+patterns = ["binary-search"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

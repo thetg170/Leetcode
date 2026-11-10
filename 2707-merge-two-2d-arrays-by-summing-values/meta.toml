@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2707
+frontend_id = 2707
+directory = "2707-merge-two-2d-arrays-by-summing-values"
+slug = "merge-two-2d-arrays-by-summing-values"
+title = "Merge Two 2D Arrays by Summing Values"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2707-merge-two-2d-arrays-by-summing-values.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Hash Table", "Two Pointers"]
+patterns = ["hash-map", "two-pointers"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

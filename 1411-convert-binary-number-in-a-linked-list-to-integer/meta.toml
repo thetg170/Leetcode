@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1411
+frontend_id = 1411
+directory = "1411-convert-binary-number-in-a-linked-list-to-integer"
+slug = "convert-binary-number-in-a-linked-list-to-integer"
+title = "Convert Binary Number in a Linked List to Integer"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer"
+active = true
+
+[files]
+statement = "README.md"
+reference = "1411-convert-binary-number-in-a-linked-list-to-integer.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Linked List", "Math"]
+patterns = ["linked-list"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

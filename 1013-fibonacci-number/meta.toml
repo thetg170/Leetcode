@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1013
+frontend_id = 1013
+directory = "1013-fibonacci-number"
+slug = "fibonacci-number"
+title = "Fibonacci Number"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/fibonacci-number"
+active = true
+
+[files]
+statement = "README.md"
+reference = "1013-fibonacci-number.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Dynamic Programming", "Math", "Memoization", "Recursion"]
+patterns = ["dynamic-programming"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

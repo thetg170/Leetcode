@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2163
+frontend_id = 2163
+directory = "2163-kth-distinct-string-in-an-array"
+slug = "kth-distinct-string-in-an-array"
+title = "Kth Distinct String in an Array"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/kth-distinct-string-in-an-array"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2163-kth-distinct-string-in-an-array.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Counting", "Hash Table", "String"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

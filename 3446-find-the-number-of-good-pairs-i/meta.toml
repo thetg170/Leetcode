@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 3446
+frontend_id = 3446
+directory = "3446-find-the-number-of-good-pairs-i"
+slug = "find-the-number-of-good-pairs-i"
+title = "Find the Number of Good Pairs I"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/find-the-number-of-good-pairs-i"
+active = true
+
+[files]
+statement = "README.md"
+reference = "3446-find-the-number-of-good-pairs-i.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Hash Table"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

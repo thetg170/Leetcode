@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 3349
+frontend_id = 3349
+directory = "3349-maximum-length-substring-with-two-occurrences"
+slug = "maximum-length-substring-with-two-occurrences"
+title = "Maximum Length Substring With Two Occurrences"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/maximum-length-substring-with-two-occurrences"
+active = true
+
+[files]
+statement = "README.md"
+reference = "3349-maximum-length-substring-with-two-occurrences.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Hash Table", "Sliding Window", "String"]
+patterns = ["hash-map", "sliding-window"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

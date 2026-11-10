@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 347
+frontend_id = 347
+directory = "0347-top-k-frequent-elements"
+slug = "top-k-frequent-elements"
+title = "Top K Frequent Elements"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/top-k-frequent-elements"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0347-top-k-frequent-elements.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Bucket Sort", "Counting", "Divide and Conquer", "Hash Table", "Heap (Priority Queue)", "Quickselect", "Sorting"]
+patterns = ["hash-map", "heap"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 8
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

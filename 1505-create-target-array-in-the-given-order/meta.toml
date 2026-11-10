@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1505
+frontend_id = 1505
+directory = "1505-create-target-array-in-the-given-order"
+slug = "create-target-array-in-the-given-order"
+title = "Create Target Array in the Given Order"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/create-target-array-in-the-given-order"
+active = true
+
+[files]
+statement = "README.md"
+reference = "1505-create-target-array-in-the-given-order.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Simulation"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2977
+frontend_id = 2977
+directory = "2977-check-if-a-string-is-an-acronym-of-words"
+slug = "check-if-a-string-is-an-acronym-of-words"
+title = "Check if a String Is an Acronym of Words"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/description/"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2977-check-if-a-string-is-an-acronym-of-words.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "String"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

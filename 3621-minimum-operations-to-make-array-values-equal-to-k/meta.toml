@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 3621
+frontend_id = 3621
+directory = "3621-minimum-operations-to-make-array-values-equal-to-k"
+slug = "minimum-operations-to-make-array-values-equal-to-k"
+title = "Minimum Operations to Make Array Values Equal to K"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k"
+active = true
+
+[files]
+statement = "README.md"
+reference = "3621-minimum-operations-to-make-array-values-equal-to-k.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Hash Table"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

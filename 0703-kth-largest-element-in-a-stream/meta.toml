@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 703
+frontend_id = 703
+directory = "0703-kth-largest-element-in-a-stream"
+slug = "kth-largest-element-in-a-stream"
+title = "Kth Largest Element In a Stream"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/kth-largest-element-in-a-stream/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Heap / Priority Queue"]
+patterns = ["heap-priority-queue"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 328
+frontend_id = 328
+directory = "0328-odd-even-linked-list"
+slug = "odd-even-linked-list"
+title = "Odd Even Linked List"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/odd-even-linked-list"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0328-odd-even-linked-list.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Linked List"]
+patterns = ["linked-list"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

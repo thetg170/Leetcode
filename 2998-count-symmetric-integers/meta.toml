@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2998
+frontend_id = 2998
+directory = "2998-count-symmetric-integers"
+slug = "count-symmetric-integers"
+title = "Count Symmetric Integers"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/count-symmetric-integers"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2998-count-symmetric-integers.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Enumeration", "Math"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

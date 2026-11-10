@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 303
+frontend_id = 303
+directory = "0303-range-sum-query-immutable"
+slug = "range-sum-query-immutable"
+title = "Range Sum Query - Immutable"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/range-sum-query-immutable"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0303-range-sum-query-immutable.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Design", "Prefix Sum"]
+patterns = ["prefix-sum"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 15
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 763
+frontend_id = 763
+directory = "0763-partition-labels"
+slug = "partition-labels"
+title = "Partition Labels"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/partition-labels/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Greedy"]
+patterns = ["greedy"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 329
+frontend_id = 329
+directory = "0329-longest-increasing-path-in-a-matrix"
+slug = "longest-increasing-path-in-a-matrix"
+title = "Longest Increasing Path In a Matrix"
+language = "python"
+difficulty = "hard"
+source_url = "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["2-D Dynamic Programming"]
+patterns = ["2-d-dynamic-programming"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

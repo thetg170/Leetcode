@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 49
+frontend_id = 49
+directory = "0049-group-anagrams"
+slug = "group-anagrams"
+title = "Group Anagrams"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/group-anagrams/description/"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0049-group-anagrams.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Hash Table", "Sorting", "String"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 26
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

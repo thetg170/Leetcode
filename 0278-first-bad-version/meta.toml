@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 278
+frontend_id = 278
+directory = "0278-first-bad-version"
+slug = "first-bad-version"
+title = "First Bad Version"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/first-bad-version"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0278-first-bad-version.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Binary Search", "Interactive"]
+patterns = ["binary-search"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

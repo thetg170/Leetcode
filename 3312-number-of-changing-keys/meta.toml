@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 3312
+frontend_id = 3312
+directory = "3312-number-of-changing-keys"
+slug = "number-of-changing-keys"
+title = "Number of Changing Keys"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/number-of-changing-keys"
+active = true
+
+[files]
+statement = "README.md"
+reference = "3312-number-of-changing-keys.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["String"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

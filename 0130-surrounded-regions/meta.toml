@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 130
+frontend_id = 130
+directory = "0130-surrounded-regions"
+slug = "surrounded-regions"
+title = "Surrounded Regions"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/surrounded-regions/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Graphs"]
+patterns = ["graphs"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

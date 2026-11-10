@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1304
+frontend_id = 1426
+directory = "1304-find-n-unique-integers-sum-up-to-zero"
+slug = "find-n-unique-integers-sum-up-to-zero"
+title = "Find N Unique Integers Sum up to Zero"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/description/?envType=problem-list-v2&envId=array"
+active = true
+
+[files]
+statement = "README.md"
+reference = "1304-find-n-unique-integers-sum-up-to-zero.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Math"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

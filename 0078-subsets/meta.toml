@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 78
+frontend_id = 78
+directory = "0078-subsets"
+slug = "subsets"
+title = "Subsets"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/subsets"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0078-subsets.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Backtracking", "Bit Manipulation"]
+patterns = ["backtracking"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 9
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

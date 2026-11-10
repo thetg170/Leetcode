@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 143
+frontend_id = 143
+directory = "0143-reorder-list"
+slug = "reorder-list"
+title = "Reorder List"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/reorder-list"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0143-reorder-list.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Linked List", "Recursion", "Stack", "Two Pointers"]
+patterns = ["linked-list", "stack", "two-pointers"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 67
+frontend_id = 67
+directory = "0067-add-binary"
+slug = "add-binary"
+title = "Add Binary"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/add-binary"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0067-add-binary.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Bit Manipulation", "Math", "Simulation", "String"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 283
+frontend_id = 283
+directory = "0283-move-zeroes"
+slug = "move-zeroes"
+title = "Move Zeroes"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/move-zeroes"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0283-move-zeroes.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Two Pointers"]
+patterns = ["two-pointers"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 30
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

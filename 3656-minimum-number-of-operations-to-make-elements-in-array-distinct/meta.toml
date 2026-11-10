@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 3656
+frontend_id = 3656
+directory = "3656-minimum-number-of-operations-to-make-elements-in-array-distinct"
+slug = "minimum-number-of-operations-to-make-elements-in-array-distinct"
+title = "Minimum Number of Operations to Make Elements in Array Distinct"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/minimum-number-of-operations-to-make-elements-in-array-distinct"
+active = true
+
+[files]
+statement = "README.md"
+reference = "3656-minimum-number-of-operations-to-make-elements-in-array-distinct.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Hash Table"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

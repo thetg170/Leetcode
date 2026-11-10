@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 39
+frontend_id = 39
+directory = "0039-combination-sum"
+slug = "combination-sum"
+title = "Combination Sum"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/combination-sum"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0039-combination-sum.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Backtracking"]
+patterns = ["backtracking"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 18
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

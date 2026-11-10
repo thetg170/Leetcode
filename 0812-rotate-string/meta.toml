@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 812
+frontend_id = 812
+directory = "0812-rotate-string"
+slug = "rotate-string"
+title = "Rotate String"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/rotate-string"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0812-rotate-string.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["String", "String Matching"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 3267
+frontend_id = 3267
+directory = "3267-find-longest-special-substring-that-occurs-thrice-i"
+slug = "find-longest-special-substring-that-occurs-thrice-i"
+title = "Find Longest Special Substring That Occurs Thrice I"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-i"
+active = true
+
+[files]
+statement = "README.md"
+reference = "3267-find-longest-special-substring-that-occurs-thrice-i.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Binary Search", "Counting", "Hash Table", "Sliding Window", "String"]
+patterns = ["binary-search", "hash-map", "sliding-window"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

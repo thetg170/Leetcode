@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 105
+frontend_id = 105
+directory = "0105-construct-binary-tree-from-preorder-and-inorder-traversal"
+slug = "construct-binary-tree-from-preorder-and-inorder-traversal"
+title = "Construct Binary Tree From Preorder And Inorder Traversal"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Trees"]
+patterns = ["trees"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

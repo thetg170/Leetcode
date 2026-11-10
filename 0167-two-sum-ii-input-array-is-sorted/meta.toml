@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 167
+frontend_id = 167
+directory = "0167-two-sum-ii-input-array-is-sorted"
+slug = "two-sum-ii-input-array-is-sorted"
+title = "Two Sum II - Input Array Is Sorted"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0167-two-sum-ii-input-array-is-sorted.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Binary Search", "Two Pointers"]
+patterns = ["binary-search", "two-pointers"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 11
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

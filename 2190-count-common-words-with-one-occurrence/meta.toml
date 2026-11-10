@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2190
+frontend_id = 2190
+directory = "2190-count-common-words-with-one-occurrence"
+slug = "count-common-words-with-one-occurrence"
+title = "Count Common Words With One Occurrence"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/count-common-words-with-one-occurrence"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2190-count-common-words-with-one-occurrence.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Counting", "Hash Table", "String"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

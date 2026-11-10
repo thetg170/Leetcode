@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1448
+frontend_id = 1448
+directory = "1448-maximum-69-number"
+slug = "maximum-69-number"
+title = "Maximum 69 Number"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/maximum-69-number"
+active = true
+
+[files]
+statement = "README.md"
+reference = "1448-maximum-69-number.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Greedy", "Math"]
+patterns = ["greedy"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

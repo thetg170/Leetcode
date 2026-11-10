@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 383
+frontend_id = 383
+directory = "0383-ransom-note"
+slug = "ransom-note"
+title = "Ransom Note"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/ransom-note"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0383-ransom-note.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Counting", "Hash Table", "String"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

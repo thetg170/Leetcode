@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1528
+frontend_id = 1528
+directory = "1528-kids-with-the-greatest-number-of-candies"
+slug = "kids-with-the-greatest-number-of-candies"
+title = "Kids With the Greatest Number of Candies"
+language = "python"
+difficulty = "unknown"
+source_url = "https://leetcode.com/problems/kids-with-the-greatest-number-of-candies"
+active = true
+
+[files]
+statement = "README.md"
+reference = "1528-kids-with-the-greatest-number-of-candies.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = []
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

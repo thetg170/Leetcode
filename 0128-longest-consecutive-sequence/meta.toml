@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 128
+frontend_id = 128
+directory = "0128-longest-consecutive-sequence"
+slug = "longest-consecutive-sequence"
+title = "Longest Consecutive Sequence"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/longest-consecutive-sequence"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0128-longest-consecutive-sequence.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Hash Table", "Union-Find"]
+patterns = ["hash-map", "union-find"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

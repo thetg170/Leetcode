@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 287
+frontend_id = 287
+directory = "0287-find-the-duplicate-number"
+slug = "find-the-duplicate-number"
+title = "Find The Duplicate Number"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/find-the-duplicate-number/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Linked List"]
+patterns = ["linked-list"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

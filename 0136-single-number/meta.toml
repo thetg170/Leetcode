@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 136
+frontend_id = 136
+directory = "0136-single-number"
+slug = "single-number"
+title = "Single Number"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/single-number"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0136-single-number.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Bit Manipulation"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

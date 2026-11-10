@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2132
+frontend_id = 2132
+directory = "2132-convert-1d-array-into-2d-array"
+slug = "convert-1d-array-into-2d-array"
+title = "Convert 1D Array Into 2D Array"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/convert-1d-array-into-2d-array"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2132-convert-1d-array-into-2d-array.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Matrix", "Simulation"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

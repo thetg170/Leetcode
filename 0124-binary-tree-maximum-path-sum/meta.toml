@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 124
+frontend_id = 124
+directory = "0124-binary-tree-maximum-path-sum"
+slug = "binary-tree-maximum-path-sum"
+title = "Binary Tree Maximum Path Sum"
+language = "python"
+difficulty = "hard"
+source_url = "https://leetcode.com/problems/binary-tree-maximum-path-sum/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Trees"]
+patterns = ["trees"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

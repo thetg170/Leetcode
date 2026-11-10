@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 387
+frontend_id = 387
+directory = "0387-first-unique-character-in-a-string"
+slug = "first-unique-character-in-a-string"
+title = "First Unique Character in a String"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/first-unique-character-in-a-string"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0387-first-unique-character-in-a-string.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Counting", "Hash Table", "Queue", "String"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2168
+frontend_id = 2168
+directory = "2168-check-if-numbers-are-ascending-in-a-sentence"
+slug = "check-if-numbers-are-ascending-in-a-sentence"
+title = "Check if Numbers Are Ascending in a Sentence"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2168-check-if-numbers-are-ascending-in-a-sentence.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["String"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

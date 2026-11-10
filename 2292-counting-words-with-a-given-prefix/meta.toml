@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2292
+frontend_id = 2292
+directory = "2292-counting-words-with-a-given-prefix"
+slug = "counting-words-with-a-given-prefix"
+title = "Counting Words With a Given Prefix"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/counting-words-with-a-given-prefix"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2292-counting-words-with-a-given-prefix.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "String", "String Matching"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

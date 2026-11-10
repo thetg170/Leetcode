@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 190
+frontend_id = 190
+directory = "0190-reverse-bits"
+slug = "reverse-bits"
+title = "Reverse Bits"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/reverse-bits/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Bit Manipulation"]
+patterns = ["bit-manipulation"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

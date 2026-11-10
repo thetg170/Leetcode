@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1656
+frontend_id = 1656
+directory = "1656-count-good-triplets"
+slug = "count-good-triplets"
+title = "Count Good Triplets"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/count-good-triplets"
+active = true
+
+[files]
+statement = "README.md"
+reference = "1656-count-good-triplets.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Enumeration"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

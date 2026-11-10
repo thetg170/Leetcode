@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1917
+frontend_id = 1917
+directory = "1917-maximum-average-pass-ratio"
+slug = "maximum-average-pass-ratio"
+title = "Maximum Average Pass Ratio"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/maximum-average-pass-ratio"
+active = true
+
+[files]
+statement = "README.md"
+reference = "1917-maximum-average-pass-ratio.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Greedy", "Heap (Priority Queue)"]
+patterns = ["greedy", "heap"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

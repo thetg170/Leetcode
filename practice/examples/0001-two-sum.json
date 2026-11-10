@@ -1,0 +1,6 @@
+{
+  "method": "twoSum",
+  "args": [[8, 4, -1, 10], 3],
+  "expected": [1, 2],
+  "unordered": true
+}

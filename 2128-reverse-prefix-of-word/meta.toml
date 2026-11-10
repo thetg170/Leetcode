@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2128
+frontend_id = 2128
+directory = "2128-reverse-prefix-of-word"
+slug = "reverse-prefix-of-word"
+title = "Reverse Prefix of Word"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/reverse-prefix-of-word"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2128-reverse-prefix-of-word.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Stack", "String", "Two Pointers"]
+patterns = ["stack", "two-pointers"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

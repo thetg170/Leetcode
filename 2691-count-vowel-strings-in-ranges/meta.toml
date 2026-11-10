@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2691
+frontend_id = 2691
+directory = "2691-count-vowel-strings-in-ranges"
+slug = "count-vowel-strings-in-ranges"
+title = "Count Vowel Strings in Ranges"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/count-vowel-strings-in-ranges"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2691-count-vowel-strings-in-ranges.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Prefix Sum", "String"]
+patterns = ["prefix-sum"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

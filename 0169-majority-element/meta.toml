@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 169
+frontend_id = 169
+directory = "0169-majority-element"
+slug = "majority-element"
+title = "Majority Element"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/majority-element"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0169-majority-element.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Counting", "Divide and Conquer", "Hash Table", "Sorting"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

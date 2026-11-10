@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 266
+frontend_id = 266
+directory = "0266-palindrome-permutation"
+slug = "palindrome-permutation"
+title = "Palindrome Permutation"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/palindrome-permutation"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0266-palindrome-permutation.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Bit Manipulation", "Hash Table", "String"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

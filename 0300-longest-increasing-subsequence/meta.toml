@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 300
+frontend_id = 300
+directory = "0300-longest-increasing-subsequence"
+slug = "longest-increasing-subsequence"
+title = "Longest Increasing Subsequence"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/longest-increasing-subsequence/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["1-D Dynamic Programming"]
+patterns = ["1-d-dynamic-programming"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

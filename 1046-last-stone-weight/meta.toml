@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 1046
+frontend_id = 1046
+directory = "1046-last-stone-weight"
+slug = "last-stone-weight"
+title = "Last Stone Weight"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/last-stone-weight/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Heap / Priority Queue"]
+patterns = ["heap-priority-queue"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

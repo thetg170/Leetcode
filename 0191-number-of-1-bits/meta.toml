@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 191
+frontend_id = 191
+directory = "0191-number-of-1-bits"
+slug = "number-of-1-bits"
+title = "Number of 1 Bits"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/number-of-1-bits/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Bit Manipulation"]
+patterns = ["bit-manipulation"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

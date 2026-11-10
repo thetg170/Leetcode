@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 55
+frontend_id = 55
+directory = "0055-jump-game"
+slug = "jump-game"
+title = "Jump Game"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/jump-game/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Greedy"]
+patterns = ["greedy"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

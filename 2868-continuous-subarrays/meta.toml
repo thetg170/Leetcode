@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2868
+frontend_id = 2868
+directory = "2868-continuous-subarrays"
+slug = "continuous-subarrays"
+title = "Continuous Subarrays"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/continuous-subarrays"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2868-continuous-subarrays.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Heap (Priority Queue)", "Monotonic Queue", "Ordered Set", "Queue", "Sliding Window"]
+patterns = ["heap", "sliding-window"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

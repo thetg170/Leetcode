@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 162
+frontend_id = 162
+directory = "0162-find-peak-element"
+slug = "find-peak-element"
+title = "Find Peak Element"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/find-peak-element"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0162-find-peak-element.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Binary Search"]
+patterns = ["binary-search"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

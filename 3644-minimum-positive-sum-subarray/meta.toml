@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 3644
+frontend_id = 3644
+directory = "3644-minimum-positive-sum-subarray"
+slug = "minimum-positive-sum-subarray"
+title = "Minimum Positive Sum Subarray "
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/minimum-positive-sum-subarray"
+active = true
+
+[files]
+statement = "README.md"
+reference = "3644-minimum-positive-sum-subarray.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Prefix Sum", "Sliding Window"]
+patterns = ["prefix-sum", "sliding-window"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

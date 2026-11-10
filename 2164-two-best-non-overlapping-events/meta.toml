@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2164
+frontend_id = 2164
+directory = "2164-two-best-non-overlapping-events"
+slug = "two-best-non-overlapping-events"
+title = "Two Best Non-Overlapping Events"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/two-best-non-overlapping-events"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2164-two-best-non-overlapping-events.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Binary Search", "Dynamic Programming", "Heap (Priority Queue)", "Sorting"]
+patterns = ["binary-search", "dynamic-programming", "heap"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

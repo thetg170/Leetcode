@@ -1,0 +1,17 @@
+#!/bin/sh
+set -eu
+
+launcher=$0
+if [ -L "$launcher" ]; then
+    target=$(readlink "$launcher")
+    case "$target" in
+        /*) launcher=$target ;;
+        *) launcher=$(dirname "$launcher")/$target ;;
+    esac
+fi
+root=$(CDPATH='' cd -- "$(dirname "$launcher")/.." && pwd -P)
+if [ ! -x "$root/.venv/bin/python" ]; then
+    printf 'lc: run "%s/tools/bootstrap-lc.sh" first.\n' "$root" >&2
+    exit 1
+fi
+exec "$root/.venv/bin/python" "$root/tools/lc.py" "$@"

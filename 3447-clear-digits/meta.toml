@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 3447
+frontend_id = 3447
+directory = "3447-clear-digits"
+slug = "clear-digits"
+title = "Clear Digits"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/clear-digits"
+active = true
+
+[files]
+statement = "README.md"
+reference = "3447-clear-digits.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Simulation", "Stack", "String"]
+patterns = ["stack"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

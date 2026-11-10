@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2699
+frontend_id = 2699
+directory = "2699-count-the-number-of-fair-pairs"
+slug = "count-the-number-of-fair-pairs"
+title = "Count the Number of Fair Pairs"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/count-the-number-of-fair-pairs"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2699-count-the-number-of-fair-pairs.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Binary Search", "Sorting", "Two Pointers"]
+patterns = ["binary-search", "two-pointers"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

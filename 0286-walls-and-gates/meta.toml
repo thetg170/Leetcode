@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 286
+frontend_id = 286
+directory = "0286-walls-and-gates"
+slug = "walls-and-gates"
+title = "Walls And Gates"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/walls-and-gates/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Graphs"]
+patterns = ["graphs"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

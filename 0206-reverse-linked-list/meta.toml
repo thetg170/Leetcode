@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 206
+frontend_id = 206
+directory = "0206-reverse-linked-list"
+slug = "reverse-linked-list"
+title = "Reverse Linked List"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/reverse-linked-list"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0206-reverse-linked-list.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Linked List", "Recursion"]
+patterns = ["linked-list"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 7
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

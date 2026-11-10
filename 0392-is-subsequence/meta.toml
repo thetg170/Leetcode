@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 392
+frontend_id = 392
+directory = "0392-is-subsequence"
+slug = "is-subsequence"
+title = "Is Subsequence"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/is-subsequence"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0392-is-subsequence.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Dynamic Programming", "String", "Two Pointers"]
+patterns = ["dynamic-programming", "two-pointers"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

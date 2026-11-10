@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 621
+frontend_id = 621
+directory = "0621-task-scheduler"
+slug = "task-scheduler"
+title = "Task Scheduler"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/task-scheduler/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Heap / Priority Queue"]
+patterns = ["heap-priority-queue"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

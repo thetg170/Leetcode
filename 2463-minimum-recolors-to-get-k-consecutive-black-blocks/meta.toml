@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2463
+frontend_id = 2463
+directory = "2463-minimum-recolors-to-get-k-consecutive-black-blocks"
+slug = "minimum-recolors-to-get-k-consecutive-black-blocks"
+title = "Minimum Recolors to Get K Consecutive Black Blocks"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2463-minimum-recolors-to-get-k-consecutive-black-blocks.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Sliding Window", "String"]
+patterns = ["sliding-window"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

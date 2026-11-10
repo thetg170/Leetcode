@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2308
+frontend_id = 2308
+directory = "2308-divide-array-into-equal-pairs"
+slug = "divide-array-into-equal-pairs"
+title = "Divide Array Into Equal Pairs"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/divide-array-into-equal-pairs"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2308-divide-array-into-equal-pairs.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Bit Manipulation", "Counting", "Hash Table"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

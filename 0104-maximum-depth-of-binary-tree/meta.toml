@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 104
+frontend_id = 104
+directory = "0104-maximum-depth-of-binary-tree"
+slug = "maximum-depth-of-binary-tree"
+title = "Maximum Depth of Binary Tree"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Trees"]
+patterns = ["trees"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

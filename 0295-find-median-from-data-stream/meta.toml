@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 295
+frontend_id = 295
+directory = "0295-find-median-from-data-stream"
+slug = "find-median-from-data-stream"
+title = "Find Median from Data Stream"
+language = "python"
+difficulty = "hard"
+source_url = "https://leetcode.com/problems/find-median-from-data-stream"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0295-find-median-from-data-stream.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Data Stream", "Design", "Heap (Priority Queue)", "Sorting", "Two Pointers"]
+patterns = ["heap", "two-pointers"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 17
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

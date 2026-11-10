@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 724
+frontend_id = 724
+directory = "0724-find-pivot-index"
+slug = "find-pivot-index"
+title = "Find Pivot Index"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/find-pivot-index"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0724-find-pivot-index.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Prefix Sum"]
+patterns = ["prefix-sum"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 24
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

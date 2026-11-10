@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 888
+frontend_id = 924
+directory = "0888-fair-candy-swap"
+slug = "fair-candy-swap"
+title = "Fair Candy Swap"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/fair-candy-swap"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0888-fair-candy-swap.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Binary Search", "Hash Table", "Sorting"]
+patterns = ["binary-search", "hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

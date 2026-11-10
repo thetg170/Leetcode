@@ -1,0 +1,27 @@
+schema_version = 1
+
+[problem]
+repo_id = 54
+frontend_id = 54
+directory = "0054-spiral-matrix"
+slug = "spiral-matrix"
+title = "Spiral Matrix"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/spiral-matrix/"
+active = false
+
+[files]
+statement = "README.md"
+reference = "starter.py"
+archived_solution = "reference.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Math & Geometry"]
+patterns = ["math-geometry"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"

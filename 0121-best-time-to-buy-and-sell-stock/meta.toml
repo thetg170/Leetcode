@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 121
+frontend_id = 121
+directory = "0121-best-time-to-buy-and-sell-stock"
+slug = "best-time-to-buy-and-sell-stock"
+title = "Best Time to Buy and Sell Stock"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/best-time-to-buy-and-sell-stock"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0121-best-time-to-buy-and-sell-stock.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Dynamic Programming"]
+patterns = ["dynamic-programming"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

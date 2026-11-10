@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 23
+frontend_id = 23
+directory = "0023-merge-k-sorted-lists"
+slug = "merge-k-sorted-lists"
+title = "Merge k Sorted Lists"
+language = "python"
+difficulty = "hard"
+source_url = "https://leetcode.com/problems/merge-k-sorted-lists"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0023-merge-k-sorted-lists.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Divide and Conquer", "Heap (Priority Queue)", "Linked List", "Merge Sort"]
+patterns = ["heap", "linked-list"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

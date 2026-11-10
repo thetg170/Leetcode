@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 2640
+frontend_id = 2640
+directory = "2640-maximum-number-of-integers-to-choose-from-a-range-i"
+slug = "maximum-number-of-integers-to-choose-from-a-range-i"
+title = "Maximum Number of Integers to Choose From a Range I"
+language = "python"
+difficulty = "medium"
+source_url = "https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i"
+active = true
+
+[files]
+statement = "README.md"
+reference = "2640-maximum-number-of-integers-to-choose-from-a-range-i.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Binary Search", "Greedy", "Hash Table", "Sorting"]
+patterns = ["binary-search", "greedy", "hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

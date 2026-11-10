@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1878
+frontend_id = 1878
+directory = "1878-check-if-array-is-sorted-and-rotated"
+slug = "check-if-array-is-sorted-and-rotated"
+title = "Check if Array Is Sorted and Rotated"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated"
+active = true
+
+[files]
+statement = "README.md"
+reference = "1878-check-if-array-is-sorted-and-rotated.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

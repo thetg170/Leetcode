@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 326
+frontend_id = 326
+directory = "0326-power-of-three"
+slug = "power-of-three"
+title = "Power of Three"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/power-of-three"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0326-power-of-three.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Math", "Recursion"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

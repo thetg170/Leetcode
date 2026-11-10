@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 349
+frontend_id = 349
+directory = "0349-intersection-of-two-arrays"
+slug = "intersection-of-two-arrays"
+title = "Intersection of Two Arrays"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/intersection-of-two-arrays"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0349-intersection-of-two-arrays.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Binary Search", "Hash Table", "Sorting", "Two Pointers"]
+patterns = ["binary-search", "hash-map", "two-pointers"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

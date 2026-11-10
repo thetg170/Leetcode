@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 346
+frontend_id = 346
+directory = "0346-moving-average-from-data-stream"
+slug = "moving-average-from-data-stream"
+title = "Moving Average from Data Stream"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/moving-average-from-data-stream"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0346-moving-average-from-data-stream.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Data Stream", "Design", "Queue"]
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

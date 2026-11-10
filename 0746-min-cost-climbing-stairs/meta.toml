@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 746
+frontend_id = 747
+directory = "0746-min-cost-climbing-stairs"
+slug = "min-cost-climbing-stairs"
+title = "Min Cost Climbing Stairs"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/min-cost-climbing-stairs"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0746-min-cost-climbing-stairs.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Dynamic Programming"]
+patterns = ["dynamic-programming"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

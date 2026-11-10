@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 374
+frontend_id = 374
+directory = "0374-guess-number-higher-or-lower"
+slug = "guess-number-higher-or-lower"
+title = "Guess Number Higher or Lower"
+language = "python"
+difficulty = "unknown"
+source_url = "https://leetcode.com/problems/guess-number-higher-or-lower"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0374-guess-number-higher-or-lower.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = []
+patterns = []
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

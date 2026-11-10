@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 217
+frontend_id = 217
+directory = "0217-contains-duplicate"
+slug = "contains-duplicate"
+title = "Contains Duplicate"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/contains-duplicate"
+active = true
+
+[files]
+statement = "README.md"
+reference = "0217-contains-duplicate.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Hash Table", "Sorting"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "learning"
+queue = "core"
+seed_order = 10
+level = -1
+due = "2026-09-16"
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""

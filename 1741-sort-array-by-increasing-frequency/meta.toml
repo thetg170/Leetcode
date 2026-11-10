@@ -1,0 +1,33 @@
+schema_version = 1
+
+[problem]
+repo_id = 1741
+frontend_id = 1741
+directory = "1741-sort-array-by-increasing-frequency"
+slug = "sort-array-by-increasing-frequency"
+title = "Sort Array by Increasing Frequency"
+language = "python"
+difficulty = "easy"
+source_url = "https://leetcode.com/problems/sort-array-by-increasing-frequency"
+active = true
+
+[files]
+statement = "README.md"
+reference = "1741-sort-array-by-increasing-frequency.py"
+tests = "tests/test_solution.py"
+
+[classification]
+tags = ["Array", "Hash Table", "Sorting"]
+patterns = ["hash-map"]
+pattern_verified = false
+
+[review]
+state = "new"
+queue = "backlog"
+seed_order = 0
+level = -1
+due = ""
+last_reviewed = ""
+attempts = 0
+lapses = 0
+last_grade = ""
