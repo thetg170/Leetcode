@@ -41,9 +41,11 @@ với workspace. [Bản nguồn đã dùng](https://github.com/neetcode-gh/leetc
 
 ### Đề bài và kiểm thử offline
 
-`lc lang vi` và `lc lang en` đổi đề từ terminal. Two Sum có hai bản diễn giải
-tự viết. Các bài khác hiển thị đề tiếng Anh đã có và ghi rõ khi đang dùng bản
-thay thế. Thêm bản diễn giải của bạn tại `practice/statements/<tên-thư-mục>/vi.md`
+`lc lang vi` và `lc lang en` đổi đề từ terminal. Trong Neovim của workspace,
+bấm `Space l l` để đổi qua lại. Cả 150 bài NeetCode có đề tiếng Anh và bản
+tóm tắt tiếng Việt dùng offline. Khi bài ngoài bộ này thiếu một ngôn ngữ,
+workspace hiển thị bản thay thế và ghi rõ ngôn ngữ. Thêm bản diễn giải của bạn
+tại `practice/statements/<tên-thư-mục>/vi.md`
 hoặc `en.md`. Chỉ chia sẻ nội dung bạn có quyền đưa lên GitHub.
 
 ```sh
@@ -82,8 +84,8 @@ Trên Mac thứ hai, lệnh trong thẻ vẫn dùng được sau khi thiết l�
 Anki quản lý ngày đến hạn và điểm ôn.
 
 Deck **LeetCode** trên Anki có lệnh `lc review` cho đủ 150 bài NeetCode 150.
-107 bài bổ sung có đề tóm tắt tiếng Anh và tiếng Việt, một ví dụ và khung hàm
-Python. Hai ngôn ngữ mở được offline. Cả 150 bài có bộ test local. Trong
+107 bài bổ sung có một ví dụ và khung hàm Python. Cả 150 bài có đề song ngữ
+offline và bộ test local. Trong
 Neovim, bấm `Space l t` để lưu và kiểm tra bản nháp đang mở. Kết quả dựa
 trên các ca kiểm thử trong repo. Dùng liên kết LeetCode khi muốn nộp bài
 trên hệ thống chấm trực tuyến.

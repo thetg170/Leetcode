@@ -1,13 +1,30 @@
--- Loaded only in the workspace editor. Existing LazyVim and kata mappings stay active.
+-- Loaded only in the workspace editor.
 local script = debug.getinfo(1, "S").source:sub(2)
 local root = vim.fs.dirname(vim.fs.dirname(script))
 local lc = root .. "/bin/lc"
 
-local server = vim.v.servername
-vim.api.nvim_create_autocmd("VimLeave", { once = true, callback = function()
-  vim.fn.serverstop(server)
-  vim.uv.fs_rmdir(vim.fs.dirname(server))
-end })
+local function reserve_leetcode_prefix()
+  local mapping = vim.fn.maparg("<leader>l", "n", false, true)
+  if mapping.rhs and mapping.rhs:lower() == "<cmd>lazy<cr>" then
+    vim.keymap.del("n", "<leader>l")
+  end
+end
+
+reserve_leetcode_prefix()
+-- LazyVim installs its default keymaps on VeryLazy, after this startup script.
+vim.api.nvim_create_autocmd("User", {
+  pattern = "VeryLazy",
+  once = true,
+  callback = reserve_leetcode_prefix,
+})
+
+if not _G.LCOpen then
+  local server = vim.v.servername
+  vim.api.nvim_create_autocmd("VimLeave", { once = true, callback = function()
+    vim.fn.serverstop(server)
+    vim.uv.fs_rmdir(vim.fs.dirname(server))
+  end })
+end
 
 function _G.LCOpen(path)
   local mode = vim.api.nvim_get_mode().mode
@@ -26,8 +43,17 @@ function _G.LCOpen(path)
   if vim.api.nvim_buf_get_name(0) == path then
     return ""
   end
+  local code_window = vim.api.nvim_get_current_win()
   local ok, err = pcall(vim.cmd.edit, { args = { path }, mods = { hide = true } })
-  return ok and "" or tostring(err)
+  if not ok then
+    return tostring(err)
+  end
+  for _, win in ipairs(vim.api.nvim_tabpage_list_wins(0)) do
+    if vim.w[win].lc_result_source == code_window then
+      vim.api.nvim_win_hide(win)
+    end
+  end
+  return ""
 end
 
 local function background(args)
